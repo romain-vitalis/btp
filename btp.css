@@ -1,0 +1,212 @@
+/* Image de fond*/
+
+
+body {
+    margin: 0 auto;
+    background: url(https://th.bing.com/th/id/R.e461d620b4fd72d26877d75afe53b97f?rik=3xyQGyjzrTSaXQ&riu=http%3a%2f%2fcdn2.hubspot.net%2fhubfs%2f311869%2fConstructBase%2fImages%2fConstruction_background.jpg&ehk=J1txyPccJPl5TqjLdSH03VeLHhlL5dvoFpQ6Ar6679Y%3d&risl=&pid=ImgRaw&r=0);
+    
+}
+
+/* fond du haut du  page*/
+header{
+    background-color: rgb(131, 119, 172);
+    height: 110px;
+}   
+nav.nav{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;    
+    list-style: none
+}
+
+/* Logo*/
+div.logo{
+    display: flex;
+    justify-content: left;
+    height: 100px;
+    
+}
+/* haut de la page */
+nav.navfooter{
+    display: flex;
+    justify-content: center;
+    justify-content:space-around;
+
+    position:relative;
+    top: 750px;
+    list-style: none;
+    
+    background-color: rgb(131, 119, 172);
+    height: 99px;
+}
+
+/* Présentations */
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* PAGE EQUIPE*/
+
+div.image{
+    display: flex;
+    justify-content:space-around;
+    height: 180px;
+    margin-top: 250px;
+}
+
+h1#equipe{
+    display: flex;
+    justify-content: center;
+    color: rgb(2, 2, 2);
+    margin-top: 80px;
+}
+
+
+/* prénoms équipe*/
+p.blaze{
+    display: flex;
+    position: relative;
+    bottom: 50px;
+    left: 100px;
+    font-weight: bold;  
+}
+
+div.blaze2 {  
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-between ;
+      
+}
+/* métiers */
+p#metier1{
+    position: relative;
+    left: 60px; 
+
+}
+p#metier2{
+    position: relative;
+    right: 30px;
+}
+
+p#metier3{
+    position: relative;
+    right:140px;
+}
+
+
+p#metier4{
+    position: relative;
+    right:135px;
+}
+
+p#metier5{
+    position: relative;
+    right:150px;
+}
+
+p#metier6{
+    position: relative;
+    right:100px;
+}
+
+/*bordure contact*/
+.jus{
+    height: 1600px;
+   border: double;
+}
+.peintre {
+    margin-top: 250px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+/* Informations*/
+.email{
+    display: flex;
+    justify-content: center;
+}
+.prenom{
+    display: flex;
+    justify-content: center;
+}
+.nom{
+    display: flex;
+    justify-content: center;
+    
+}
+.numero{
+    display: flex;
+    justify-content: center; 
+
+}
+.message{
+    display: flex;
+    justify-content: center; 
+}
+.destinataire{
+    display: flex;
+    justify-content: center; 
+}
+.formulaire{
+    display: flex;
+    justify-content: center; 
+}
+.pays{
+    display: flex;
+    justify-content: center;
+}
+.present{
+    display: flex;
+    justify-content: center;
+}
+
+/* formulaire qui êtes-vous*/
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   display: flex;
+   justify-content: center;
+}
+
+/* PAGE Realisation*/
+
+h1#realisation{
+    display: flex;
+    justify-content: center;
+}
+/* image stade vélodrome */
+img#vélo{
+    height: 320px;
+}
+/* texte stade vélodrome*/
+p#textevélo{
+    font-size: 19px;
+}
+
+
+
+div.grpesca{
+    display: flex;
+    justify-content:right ;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+img#maison{
+     height: 320px;
+}
+
+p#maison{
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+div.tele{
+    display: flex;
+    justify-content: right;
+    height: 320px;
+    font-size: 20px;
+}
